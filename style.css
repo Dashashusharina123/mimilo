@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.header .container .navigation{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 15px;
+}
+.header .container .navigation .logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 100;
+    color:rgb(97, 95, 95) ;
+}
+.header .container .navigation .fa-solid fa-bag-shopping{
+    width: 30px;
+}
+.header a{
+    color: rgb(150, 148, 148);
+}
+.slaid-1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-1 .container .str1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.slaid-1 .container .str1 .zagolov{
+    position: absolute;
+    font-size: 34px;
+    margin-top: 500px;
+    color: rgb(97, 95, 95);
+    font-weight:100;
+}
+.slaid-1 .container .str1 .pic-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+}
+.slaid-1 .container .str1 .pic-3{
+    margin-top: -170px;
+    margin-left: 25%;
+}
+.slaid-1 .container .str1 .pic-4{
+    margin-top: -75px;
+    margin-left: 88%;
+}
+.slaid-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-2 .container .str2 .text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 12%;
+    font-size: 24px;
+    color: rgb(97, 95, 95);
+}
+.slaid-2 .container .str2 .pic-body{
+background-size: cover;
+margin-left: 69%;
+margin-top: -140px;
+}
+.slaid-2 .container .str2 .polov1{
+    width: 50%;
+}
+.slaid-2 .container .str2 .polov2{
+    width: 50%;
+}
+.slaid-2 .container .str2 .polovini{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.slaid-2 .container .str2 .otsek{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    margin-top: 65px;
+    color: rgb(97, 95, 95);
+}
+.slaid-2 .container .str2 .otsek .line{
+    height: 1px;
+    width: 45px;
+    background-color: rgb(97, 95, 95);
+    margin-right: 20px;
+    margin-top: 9px;
+}
+.slaid-2 .container .str2 .polovini .niz1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.slaid-2 .container .str2 .polovini .niz1 .fa-solid{
+    margin-left: 49%;
+    font-size: 35px;
+}
+.slaid-2 .container .str2 .polovini .niz2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: rgb(97, 95, 95);
+}
+.slaid-2 .container .str2 .polovini .niz2 .fa-solid{
+    margin-left: 44%;
+    font-size: 35px;
+}
+.slaid-2 .container .str2 .polovini .rubl{
+    margin-top: 10px;
+    color: rgb(97, 95, 95);
+}
+.slaid-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-3 .container .str3 .txt{
+    width: 45%;
+    font-size: 18px;
+    color: rgb(97, 95, 95);
+}
+.slaid-3 .container .str3 .txt .podrob{
+    justify-content: center;
+    margin-top: 20px;
+    color:rgb(97, 95, 95);
+}
+.slaid-3 .container .str3 .otsek1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    color: rgb(97, 95, 95);
+}
+.slaid-3 .container .str3 .otsek1 .line{
+    height: 1px;
+    width: 45px;
+    background-color: rgb(97, 95, 95);
+    margin-right: 20px;
+    margin-top: 9px;
+}
+.slaid-3 .container .str3{
+    padding-top: 30%;
+}
+.slaid-3 .container .str3 .akk .avatar{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+.slaid-3 .container .str3 .akk .kto{
+    font-size: 18px;
+    margin-top: 12px;
+}
+.slaid-3 .container .str3 .akk .kto .im{
+    text-decoration: underline;
+}
+.slaid-3 .container .str3 .akk{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    color: rgb(97, 95, 95);
+}
+.slaid-3 .container .str3 .pic-11{
+    margin-left:50% ;
+    margin-top: -420px;
+}
+.slaid-3 .container .str3 .pic-12{
+    margin-top: -200px;
+    margin-left: 300px;
+}
+.slaid-3 .container .str3 .pic-rose{
+    margin-left: 1010px;
+    position: absolute;
+    margin-top: -503px;
+}
+.slaid-4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-4 .container .str4{
+    flex-direction: row;
+    display: flex;
+    padding-top: 15%;
+}
+.slaid-4 .container .str4 .col{
+    width: 33%;
+}
+.slaid-4 .container .str4 .col .pic-pr{
+    display: flex;
+    justify-content: center;
+}
+.slaid-4 .container .str4 .col .pip{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: rgb(97, 95, 95);
+}
+.slaid-5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-5 .container .str5{
+    padding-top:20% ;
+}
+.slaid-5 .container .str5 .back{
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(97, 95, 95);
+}
+.slaid-5 .container .str5 .pic-13{
+    position: relative;
+    margin-top: -415px;
+    display: flex;
+    justify-content: center;
+}
+.slaid-5 .container .str5 .pic-13 .verh{
+    position: absolute;
+    margin-top: 10% ;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(237, 229, 224);
+}
+.slaid-5 .str5 .button-auth1{
+    padding: 15px 20px ;
+    border: 1px solid  aliceblue;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background: transparent;
+    width: 150px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.slaid-5 .container .str5 .zakaz{
+    display: flex;
+    margin-top: 23%;
+    position: absolute;
+}
+.slaid-6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.slaid-6 .container .str6 .inst{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: center;
+}
+.slaid-6 .container .str6{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(97, 95, 95);
+}
+.slaid-6 .container .str6 .inst .popa{
+    text-decoration: underline;
+    margin-left: 5px;
+    color: rgb(97, 95, 95);
+    cursor: pointer;
+}
+.slaid-6 .container .str6 .inst .fa-brands{
+    margin-right: 5px;
+    color: rgb(97, 95, 95);
+}
+.slaid-6 .container .str6 .pic-14{
+margin-right: 25px;
+}
+.slaid-6 .container .str6 .podborka{
+    display: flex;
+    margin-top: 10%;
+}
+.slaid-7{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/19.jpg);
+    padding-bottom: 5%;
+}
+.slaid-7 .container .str7{
+    padding-top: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slaid-7 .container .str7 .neto{
+    display: flex;
+    flex-direction: row;
+}
+.slaid-7 .container .str7 .textic{
+    width: 50%;
+    color: rgb(97, 95, 95);
+}
+.slaid-7 .container .str7 .textic .aaaa{
+    margin-top: 20px;
+}
+.slaid-7 .container .str7 .forma{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-auth{
+    padding: 15px 0px ; 
+    border-bottom: 1px solid  rgb(97, 95, 95);
+    margin-bottom: 10px;
+    background-color: none;
+    width: 60%;
+    background: transparent;
+}
+.slaid-7 .container .str7 .forma .spisok{
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    margin-top: 15px;
+    color: rgb(97, 95, 95);
+}
+.slaid-7 .container .str7 .forma .flag{
+    margin-top: 15px;
+    color: rgb(97, 95, 95);
+}
+.slaid-7 .str7 .button-auth{
+    padding: 15px 20px ;
+    border: 2px solid  rgb(135, 134, 134);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background: transparent;
+    width: 15%;
+    cursor: pointer; 
+}
+.slaid-7 .container .str7 .otpr{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: rgb(159, 151, 151);
+}
+.slaid-8 .container .str8{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.slaid-8{
+    background-image: url(./img/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+}
+.slaid-8 .container .str8 .odin{
+    width: 33%;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+
+}
+.slaid-8 .container .str8 .odin .brend{
+    color: white;
+    font-size: 25px;
+}
+.slaid-8 .container .str8 .odin .piv{
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(164, 164, 164);
+}
+.slaid-8 .container .str8 .odin .skrip{
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(164, 164, 164);
+}
+.slaid-8 .container .str8 .odin .pov{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.slaid-8 .container .str8{
+    display: flex;
+    flex-direction: row;
+}
+.slaid-8 .container .str8 .odin .pov .pic-vk{
+    margin-right: 20px;
+    border: 1px solid rgb(164, 164, 164);
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+    .slaid-3 .container .str3 .pic-rose{
+        margin-left: 945px;
+    }
+    .slaid-3 .container .str3 .pic-11{
+        margin-left: 47%;
+    }
+    .slaid-3 .container .str3 .pic-12{
+        margin-left: 240px;
+        margin-top: -250px;
+    }
+    .slaid-6 .container .str6 .pic-14{
+        margin-right: 1px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 960px;
+    }
+    .slaid-1 .container .str1 .zagolov{
+        font-size: 28px;
+    }
+    .slaid-1 .container .str1 .pic-3{
+        margin-left: 15%;
+    }
+    .slaid-1 .container .str1 .pic-4{
+        margin-left: 85%;
+    }
+    .slaid-3 .container .str3 .pic-12{
+        margin-left: 90px;
+    }
+    .slaid-3 .container .str3 .pic-11{
+        margin-left: 39%;
+    }
+    .slaid-3 .container .str3 .pic-rose{
+        margin-left: 780px;
+        margin-top: -450px;
+    }
+    .slaid-3 .container .str3 .txt .podrob{
+        font-size: 12px;
+    }
+    .slaid-3 .container .str3 .txt{
+        font-size: 16px;
+    }
+    .slaid-3 .container .str3 .akk .kto{
+        font-size: 16px;
+    }
+    .slaid-6 .container .str6 .pic-14{
+        width: 19%;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width:  740px;
+    }
+    .header .container .navigation{
+        width: 99%;
+    }
+    .header .container .navigation .logo{
+        width: 25%;
+    }
+    .slaid-1 .container .str1 .pic-2 img{
+        width: 400px;
+        height: 550px;
+        margin-left: 800px;
+    }
+    .slaid-1 .container .str1 .pic-4{
+        margin-left: 82%;
+    }
+    .slaid-1 .container .str1 .pic-3{
+        margin-left: -3px;
+    }
+    .slaid-1 .container .str1 .zagolov{
+        font-size: 25px;
+        margin-top: 450px;
+    }
+    .slaid-2 .container .str2 .polov1 .pic-5 img{
+        width: 350px;
+        height: 450px;
+    }
+    .slaid-2 .container .str2 .polov2 .pic-6 img{
+        width: 350px;
+        height: 450px;
+    }
+    .slaid-2 .container .str2 .polovini .niz1 .fa-solid{
+        margin-left: 46%;
+    }
+    .slaid-2 .container .str2 .polovini .niz2 .fa-solid{
+        margin-left: 38%;
+    }
+    .slaid-3 .container .str3 .pic-11 img{
+        width: 330px;
+        height: 430px;
+        margin-left: 50px;
+    }
+    .slaid-3 .container .str3 .pic-11{
+        margin-top: -420px;
+    }
+    .slaid-3 .container .str3 .txt{
+        font-size: 14px;
+    }
+    .slaid-3 .container .str3 .pic-12 img{
+        width: 200px;
+        height: 200px;
+        margin-top: 240px;
+    }
+    .slaid-3 .container .str3 .pic-rose img{
+        width: 170px;
+        height: 240px;
+    }
+    .slaid-3 .container .str3 .pic-rose{
+        margin-left: 580px;
+        margin-top: -435px;
+    }
+    .slaid-4 .container .str4 .col .pip{
+        font-size: 12px;
+    }
+    .slaid-6 .container .str6 .pic-14 img{
+        width: 140px;
+        height: 140px;
+    }
+    .slaid-6 .container .str6 .pic-14 {
+        margin-right: 10px;
+    }
+    .slaid-7 .str7 .button-auth {
+        width: 17%;
+    }
+    .slaid-5 .container .str5 .back{
+        font-size: 80px;
+    }
+    .slaid-5 .container .str5 .zakaz{
+        margin-top: 30%;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+    .header .container .navigation {
+        width: 99%;
+        font-size: 15px;
+    }
+    .slaid-1 .container .str1 .pic-1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .slaid-1 .container .str1 .pic-2 img{
+        width: 280px;
+        height: 380px;
+    }
+    .slaid-1 .container .str1 .pic-3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .slaid-1 .container .str1 .pic-3{
+        margin-left: 10px;
+    }
+    .slaid-1 .container .str1 .zagolov{
+        font-size: 18px;
+        margin-top: 220px;
+    }
+    .slaid-1 .container .str1 .pic-4 img{
+        width: 100px;
+        height: 100px;
+    }
+    .slaid-1 .container .str1 .pic-4{
+        margin-top: -50px;
+    }
+    .slaid-1 .container .str1{
+        padding-bottom: 60px;
+    }
+    .slaid-2 .container .str2 .pic-body img{
+        width: 130px;
+        height: 230px;
+    }
+    .slaid-2 .container .str2 .text{
+        font-size: 20px;
+    }
+    .slaid-2 .container .str2 .polov1 .pic-5 img{
+        width: 250px;
+        height: 350px;
+    }
+    .slaid-2 .container .str2 .polov2 .pic-6 img{
+        width: 250px;
+        height: 350px;
+    }
+    .slaid-2 .container .str2 .polovini .niz1 .fa-solid{
+        margin-left: 20%;
+    }
+    .slaid-2 .container .str2 .polovini .niz2 .fa-solid{
+        margin-left: 10%;
+    }
+    .slaid-2 .container .str2 .otsek{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .slaid-2 .container .str2 .polovini{
+        padding-bottom: 30px;
+    }
+    .slaid-3 .container .str3 {
+        padding-top: 10%;
+    }
+    .slaid-3 .container .str3 .pic-11 img{
+        width: 220px;
+    height: 340px ;
+    }
+    .slaid-3 .container .str3 .txt{
+        font-size: 12px;
+    }
+    .slaid-3 .container .str3 .pic-rose img {
+        width: 130px;
+        height: 200px;
+    }
+    .slaid-3 .container .str3 .pic-rose {
+        margin-left: 440px;
+        margin-top: -400px;
+    }
+    .slaid-3 .container .str3 .pic-12 img {
+        width: 150px;
+        height: 150px;
+        margin-top: 330px;
+    }
+    .slaid-3 .container .str3 .akk {
+        margin-top: 20px;
+    }
+    .slaid-3 .container .str3 .akk .kto {
+        font-size: 13px;
+    }
+    .slaid-3 .container .str3 .akk .avatar {
+        width: 55px;
+        height: 55px;
+        margin-right: 20px;
+    }
+    .slaid-4 .container .str4 .col .pip {
+        font-size: 9px;
+    }
+    .slaid-4 .container .str4 .col .pic-pr img{
+        width: 40px;
+        height: 40px;
+    }
+    .slaid-4 .container .str4{
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    .slaid-5 .container .str5 .back {
+        font-size: 60px;
+    }
+    .slaid-5 .container .str5 .pic-13 img{
+        width: 400px;
+        height: 250px;
+    }
+    .slaid-5 .container .str5 .pic-13{
+        padding-top: 110px;
+    }
+    .slaid-5 .container .str5 .pic-13 .verh {
+        font-size: 17px;
+    }
+    .slaid-6 .container .str6 .pic-14 img{
+        width: 105px;
+        height: 105px;
+    }
+    .slaid-6 .container .str6 .inst {
+        margin-left: 5px;
+    }
+    .slaid-7 .container .str7 .textic{
+        font-size: 12px;
+    }
+    .slaid-7 .container .str7 .forma .spisok{
+        font-size: 14px;
+        width: 30%;
+    }
+    .container .str8 .odin .piv {
+        font-size: 10px;
+    }
+    .container .str8 .odin .pov .pic-vk{
+        height: 30px;
+    }
+    .slaid-7 .str7 .button-auth {
+        width: 25%;
+    }
+    .input-auth {
+        font-size: 10px;
+    }
+    .slaid-7 .str7 .button-auth {
+        font-size: 14px;
+        padding: 10px 15px 
+    }
+    .slaid-8 .container .str8 .odin .piv{
+        font-size: 12px;
+    }
+    .slaid-8 .container .str8 .odin .pov .pic-vk {
+        width: 80px;
+        height: 40px;
+    }
+    .slaid-7 .container .str7 .forma .flag {
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .header .container .navigation {
+        width: 99%;
+        font-size: 12px;
+    }
+    .slaid-1 .container .str1 .pic-1 img {
+        width: 120px;
+        height: 120px;
+    }
+    .slaid-1 .container .str1 .pic-2 img {
+        width: 240px;
+        height: 340px;
+    }
+    .slaid-1 .container .str1 .pic-2 {
+        margin-right: 40px;
+    }
+    .slaid-1 .container .str1 .pic-3 img {
+        width: 120px;
+        height: 120px;
+        margin-top: 20px;
+    }
+    .slaid-1 .container .str1 .zagolov {
+        font-size: 16px;
+        margin-top: 200px;
+    }
+    .slaid-1 .container .str1 .pic-4 img {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .slaid-2 .container .str2 .pic-body img {
+        width: 100px;
+        height: 200px;
+    }
+    .slaid-2 .container .str2 .text {
+        font-size: 16px;
+    }
+    .slaid-2 .container .str2 .otsek {
+        font-size: 12px;
+    }
+    .slaid-2 .container .str2 .polov1 .pic-5 img {
+        width: 200px;
+        height: 300px;
+    }
+    .slaid-2 .container .str2 .polov2 .pic-6 img {
+        width: 200px;
+        height: 300px;
+    }
+    .slaid-2 .container .str2 .polovini .niz1 {
+        font-size: 14px;
+    }
+    .slaid-2 .container .str2 .polovini .niz2 {
+        font-size: 14px;
+    }
+    .slaid-3 .container .str3 .otsek1 {
+        font-size: 12px;
+    }
+    .slaid-3 .container .str3 .pic-11 img {
+        width: 170px;
+        height: 290px;
+    }
+    .slaid-3 .container .str3 .pic-11 img{
+    width: 200px;
+    height: 320px;
+    margin-top: 100px;
+    }
+    .slaid-3 .container .str3 .txt h1{
+        font-size: 18px;
+    }
+    .slaid-3 .container .str3 .pic-rose img {
+        width: 90px;
+        height: 160px;
+    }
+    .slaid-3 .container .str3 .pic-rose{
+        margin-left: 385px;
+        margin-top: -350px;
+    }
+    .slaid-3 .container .str3 .pic-12 img {
+        margin-top: 280px;
+    }
+    .slaid-5 .container .str5 .back {
+        font-size: 50px;
+    }
+    .slaid-5 .container .str5 .pic-13 {
+        padding-top: 140px;
+    }
+    .slaid-6 .container .str6 .inst {
+        font-size: 13px;
+    }
+    .slaid-6 .container .str6 .pic-14 img {
+        width: 86px;
+        height: 86px;
+    }
+    .slaid-7 .container .str7 .textic {
+        width: 45%;
+    }
+    .slaid-7 .container .str7 .forma {
+        width: 54%;
+    }
+    .slaid-7 .container .str7 .forma .spisok {
+        font-size: 12px;
+        width: 30%;
+    }
+    .slaid-7 .container .str7 .textic h1{
+        font-size: 15px;
+    }
+    .input-auth {
+        font-size: 10px;
+    }
+    .slaid-7 .str7 .button-auth {
+        font-size: 12px;
+        padding: 10px 15px 
+    }
+    .slaid-8 .container .str8 .odin .piv{
+        font-size: 11px;
+    }
+    .slaid-8 .container .str8 .odin .pov .pic-vk {
+        width: 80px;
+        height: 40px;
+    }
+    .slaid-7 .container .str7 .forma .flag {
+        font-size: 12px;
+    }
+    
+}
